@@ -34,7 +34,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_1md57")
 }],
 "loop": true,
-"name": &"default",
+"name": &"idle",
 "speed": 10.0
 }]
 
@@ -45,8 +45,13 @@ size = Vector2(10, 14)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_unvti")
-frame_progress = 0.926021
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.26545
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)
 shape = SubResource("RectangleShape2D_5xhxr")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
