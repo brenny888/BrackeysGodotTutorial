@@ -42,12 +42,13 @@ animations = [{
 size = Vector2(10, 14)
 
 [node name="Player" type="CharacterBody2D"]
+collision_layer = 2
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_unvti")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.715486
+frame_progress = 0.659387
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)

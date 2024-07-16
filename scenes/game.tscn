@@ -520,20 +520,20 @@ libraries = {
 }
 autoplay = "float"
 
-[node name="Area2D" parent="." instance=ExtResource("5_qexcf")]
+[node name="coin" parent="." instance=ExtResource("5_qexcf")]
 position = Vector2(110, 162)
 
-[node name="Area2D2" parent="." instance=ExtResource("5_qexcf")]
+[node name="coin2" parent="." instance=ExtResource("5_qexcf")]
 position = Vector2(45, -56)
 
-[node name="Area2D4" parent="." instance=ExtResource("5_qexcf")]
+[node name="coin4" parent="." instance=ExtResource("5_qexcf")]
 position = Vector2(-56, 41)
 
-[node name="Area2D5" parent="." instance=ExtResource("5_qexcf")]
+[node name="coin5" parent="." instance=ExtResource("5_qexcf")]
 position = Vector2(279, -50)
 
-[node name="Area2D6" parent="." instance=ExtResource("5_qexcf")]
+[node name="coin6" parent="." instance=ExtResource("5_qexcf")]
 position = Vector2(184, 137)
 
-[node name="Area2D7" parent="." instance=ExtResource("5_qexcf")]
+[node name="coin7" parent="." instance=ExtResource("5_qexcf")]
 position = Vector2(312, 119)
